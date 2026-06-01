@@ -1,26 +1,74 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0b1f3a;
+  --foreground: #f1f5f9;
+  --ring: #1e40af;
+  --radius: 0.75rem;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-legal-navy: #0b1f3a;
+  --color-legal-navy-light: #132d4a;
+  --color-legal-slate: #64748b;
+  --color-legal-border: #334155;
+  --color-legal-surface: #1e293b;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  height: 100%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Markdown inside assistant bubbles */
+.prose-legal {
+  max-width: none;
+}
+
+.prose-legal p {
+  margin: 0 0 0.75rem;
+}
+
+.prose-legal p:last-child {
+  margin-bottom: 0;
+}
+
+.prose-legal ul,
+.prose-legal ol {
+  margin: 0 0 0.75rem 1.25rem;
+  padding: 0;
+}
+
+.prose-legal li {
+  margin-bottom: 0.25rem;
+}
+
+.prose-legal strong {
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.prose-legal h2,
+.prose-legal h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.prose-legal code {
+  font-size: 0.875em;
+  background: #0f172a;
+  padding: 0.1em 0.35em;
+  border-radius: 0.25rem;
 }

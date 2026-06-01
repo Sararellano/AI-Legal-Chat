@@ -1,0 +1,147 @@
+{
+  "version": "2026.1",
+  "updatedAt": "2026-05-31",
+  "smi": {
+    "year": 2026,
+    "monthlyEuros": 1221,
+    "dailyEuros": 40.7,
+    "yearlyEuros14Payments": 17094,
+    "effectiveFrom": "2026-02-20",
+    "boeId": "BOE-A-2026-3815",
+    "decree": "Real Decreto 126/2026, de 18 de febrero",
+    "source": {
+      "name": "BOE",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815",
+      "reference": "Artículo 1"
+    },
+    "fetchedAt": "2026-05-31",
+    "fetchMethod": "baseline"
+  },
+  "indemnitySalaryCap": {
+    "formula": "2 × SMI diario",
+    "legalBasis": "ET art. 56.1.a)",
+    "source": {
+      "name": "BOE — Estatuto de los Trabajadores",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "reference": "Artículo 56"
+    }
+  },
+  "indemnityRules": {
+    "improcedente": {
+      "daysPerYear": 33,
+      "maxMonthlyPayments": 24,
+      "priorSeniorityDaysPerYear": 45,
+      "priorSeniorityMaxMonthlyPayments": 42,
+      "effectiveFrom": "2012-02-12",
+      "legalBasis": "ET art. 56.1 (Ley 3/2012, de 6 de julio)",
+      "source": {
+        "name": "BOE — Ley 3/2012",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-8067",
+        "reference": "Artículo 11"
+      }
+    },
+    "objetivo": {
+      "daysPerYear": 20,
+      "maxMonthlyPayments": 12,
+      "preNoticeDays": 15,
+      "legalBasis": "ET art. 53.1.b)",
+      "source": {
+        "name": "BOE — Estatuto de los Trabajadores",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+        "reference": "Artículo 53"
+      }
+    },
+    "procedente": {
+      "indemnityEuros": 0,
+      "legalBasis": "ET art. 55",
+      "source": {
+        "name": "BOE — Estatuto de los Trabajadores",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+        "reference": "Artículo 55"
+      }
+    }
+  },
+  "deadlines": [
+    {
+      "id": "despido-objetivo-preaviso",
+      "label": "Preaviso despido objetivo",
+      "businessDays": 15,
+      "legalBasis": "ET art. 53.1.b)",
+      "source": {
+        "name": "BOE — Estatuto de los Trabajadores",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+        "reference": "Artículo 53"
+      }
+    },
+    {
+      "id": "despido-impugnacion",
+      "label": "Impugnación de despido (concurso de acciones)",
+      "businessDays": 20,
+      "legalBasis": "ET art. 108",
+      "source": {
+        "name": "BOE — Estatuto de los Trabajadores",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+        "reference": "Artículo 108"
+      },
+      "notes": "Plazo desde la notificación del despido o desde la extinción."
+    },
+    {
+      "id": "despido-readmision-empresa",
+      "label": "Opción de readmisión por la empresa (despido improcedente)",
+      "businessDays": 10,
+      "legalBasis": "ET art. 108.2",
+      "source": {
+        "name": "BOE — Estatuto de los Trabajadores",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+        "reference": "Artículo 108"
+      }
+    },
+    {
+      "id": "despido-procedente-impugnacion",
+      "label": "Impugnación despido procedente",
+      "businessDays": 0,
+      "legalBasis": "ET art. 55",
+      "source": {
+        "name": "BOE — Estatuto de los Trabajadores",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+        "reference": "Artículo 55"
+      },
+      "notes": "No existe plazo de impugnación; la extinción es válida."
+    },
+    {
+      "id": "reclamacion-administrativa",
+      "label": "Reclamación previa ante Inspección de Trabajo (vía administrativa)",
+      "businessDays": 20,
+      "legalBasis": "LRJS art. 139",
+      "source": {
+        "name": "BOE — Ley Reguladora de la Jurisdicción Social",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18274",
+        "reference": "Artículo 139"
+      },
+      "notes": "Plazo general para reclamaciones en vía administrativa previa."
+    }
+  ],
+  "officialSources": [
+    {
+      "name": "BOE",
+      "url": "https://www.boe.es/"
+    },
+    {
+      "name": "SEPE",
+      "url": "https://www.sepe.es/"
+    },
+    {
+      "name": "Inspección de Trabajo y Seguridad Social",
+      "url": "https://www.inspecciontrabajo.gob.es/"
+    },
+    {
+      "name": "Poder Judicial — Sala de lo Social",
+      "url": "https://www.poderjudicial.es/"
+    },
+    {
+      "name": "Convenios colectivos",
+      "url": "https://www.convenioscolectivos.info/"
+    }
+  ],
+  "updateLog": []
+}

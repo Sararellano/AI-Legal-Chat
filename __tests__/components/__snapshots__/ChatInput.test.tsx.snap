@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ChatInput matches snapshot 1`] = `
+<div>
+  <div
+    class="shrink-0 border-t border-legal-border bg-legal-navy-light px-4 py-4 sm:px-6"
+  >
+    <form
+      aria-label="Send a message"
+      class="mx-auto flex max-w-3xl flex-col gap-2"
+    >
+      <div
+        class="flex items-end gap-2"
+      >
+        <textarea
+          aria-label="Mensaje"
+          class="flex min-h-[2.75rem] w-full resize-none rounded-xl border border-legal-border bg-legal-surface px-4 py-3 text-sm text-slate-100 placeholder:text-legal-slate focus-visible:border-blue-800 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-800 disabled:cursor-not-allowed disabled:opacity-60 max-h-40"
+          placeholder="Escriba su consulta laboral…"
+          rows="1"
+        />
+        <button
+          aria-label="Enviar"
+          class="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-800 focus-visible:ring-offset-2 focus-visible:ring-offset-legal-navy disabled:pointer-events-none disabled:opacity-50 bg-blue-900 text-slate-100 hover:bg-blue-800 h-11 px-4 py-3"
+          disabled=""
+          type="submit"
+        >
+          Enviar
+        </button>
+      </div>
+      <p
+        class="text-center text-[0.65rem] text-legal-slate sm:text-xs"
+      >
+        Enter para enviar · Mayús+Enter para nueva línea
+      </p>
+    </form>
+  </div>
+</div>
+`;

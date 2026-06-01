@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`LegalDisclaimer matches snapshot (compact) 1`] = `
+<div>
+  <div
+    class="border-b border-legal-border bg-legal-surface/60 px-4 py-2 text-center text-xs text-legal-slate sm:px-6"
+    role="note"
+  >
+    Información orientativa. No constituye asesoramiento jurídico. Consulte con un abogado colegiado para su caso concreto.
+  </div>
+</div>
+`;
+
+exports[`LegalDisclaimer matches snapshot (default) 1`] = `
+<div>
+  <div
+    class="mx-auto max-w-2xl rounded-lg border border-legal-border bg-legal-surface/40 px-4 py-3 text-center text-xs leading-relaxed text-legal-slate sm:text-sm"
+    role="note"
+  >
+    Información orientativa. No constituye asesoramiento jurídico. Consulte con un abogado colegiado para su caso concreto.
+  </div>
+</div>
+`;

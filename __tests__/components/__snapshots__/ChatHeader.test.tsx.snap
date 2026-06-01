@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ChatHeader matches snapshot 1`] = `
+<div>
+  <header
+    class="shrink-0 border-b border-legal-border bg-legal-navy-light px-4 py-4 pl-14 sm:px-6 sm:pl-16"
+  >
+    <div
+      class="mx-auto flex max-w-3xl flex-col gap-1"
+    >
+      <h1
+        class="text-lg font-semibold tracking-tight text-slate-100 sm:text-xl"
+      >
+        Asistente laboral (España)
+      </h1>
+      <p
+        class="text-sm text-legal-slate"
+      >
+        Contratos de trabajo y despidos — improcedente, objetivo y procedente
+      </p>
+    </div>
+  </header>
+</div>
+`;

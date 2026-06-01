@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`MessageBubble matches snapshot for assistant markdown 1`] = `
+<div>
+  <article
+    aria-label="Assistant message"
+    class="flex w-full justify-start"
+  >
+    <div
+      class="max-w-[min(100%,42rem)] rounded-2xl px-4 py-3 text-sm leading-relaxed sm:text-[0.9375rem] border border-legal-border bg-legal-surface text-slate-100"
+    >
+      <div
+        class="prose-legal"
+      >
+        <div
+          data-testid="markdown"
+        >
+          **Importante**: consulte a un abogado.
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+`;
+
+exports[`MessageBubble matches snapshot for user message 1`] = `
+<div>
+  <article
+    aria-label="Your message"
+    class="flex w-full justify-end"
+  >
+    <div
+      class="max-w-[min(100%,42rem)] rounded-2xl px-4 py-3 text-sm leading-relaxed sm:text-[0.9375rem] bg-slate-600/90 text-slate-50"
+    >
+      <p
+        class="whitespace-pre-wrap"
+      >
+        Hola
+      </p>
+    </div>
+  </article>
+</div>
+`;
